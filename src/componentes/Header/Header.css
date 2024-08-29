@@ -1,0 +1,34 @@
+.header{
+    background-color: #161D27;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.header img{
+    width: 50px;
+    height: 50px;
+}
+
+.header button{
+    text-transform: uppercase;
+    background-color: #3A4553;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4;
+    color: #FFF;
+    width: 140px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.header button:hover{
+    background-color: #3A455380;
+}

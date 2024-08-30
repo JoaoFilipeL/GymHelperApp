@@ -1,25 +1,27 @@
 .campo-texto {
-    margin: 24px 0;
+    margin: 10px 0;
 }
 
 .campo-texto input::placeholder{
     color:#fff;
-    font-size: 24px;
-    font-family: 'Outfit';
+    font-size: 20px;
+    font-family: 'Cormorant Garamond';
+    
 }
 
 .campo-texto input {
     color:#acabab;
     text-align: left;
-    background-color: #3A4553;
+    background-color: #1F2732;
     border: none;
     border-bottom: 2px solid #ffffff3b;
     padding-bottom: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     outline: none;
-    width: 120%;
+    width: 100%;
     font-size: 20px;
     padding: 20px;
     box-sizing: border-box;
+   
 }
 

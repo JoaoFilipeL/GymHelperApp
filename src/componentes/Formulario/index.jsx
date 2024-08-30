@@ -5,9 +5,11 @@ export const Formulario = () => {
     return(
         <section className="formulario">
             <div className='background'>
-                <form>
-                    <CampoTexto placeholder="Usuário" />
+                <form className='form-formulario'>
+                    <CampoTexto placeholder="Email" />
                     <CampoTexto placeholder="Senha" />  
+                    <button className='button-login'>Login</button>
+                    <a href='/Cadastrar' className='link-cadastrar '>Não tem conta? Cadastre aqui</a>
                 </form>
             </div>
         </section>

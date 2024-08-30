@@ -1,0 +1,14 @@
+.linha-titulo{
+    margin-top: 5px;
+    margin-left: 220px;
+    width: 200px;
+    height: 0.1px;
+    background-color: rgb(255, 255, 255);
+ }
+
+ .linha-menu{
+    margin-left: 220px;
+    margin-top: 80px;
+    font-size: 40px;
+    color: #FFF;
+ }

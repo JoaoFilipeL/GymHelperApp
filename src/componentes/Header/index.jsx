@@ -1,12 +1,32 @@
 import './Header.css';
-import { CircleUser } from 'lucide-react';
+import { LogIn } from 'lucide-react';
 import Logo from '../../assets/logoGH.png';
+import { Link } from 'react-router-dom';
+import Perfil from '../Perfil';
 
 export default function Header(props) {
-    return(
+    const types = props.type.split(' ');
+
+    return (
         <div className="header">
-            <img src={Logo} alt='Logo'/>
-            {props.type === 'PRIMARY' && <button className="button-style">Perfil <CircleUser size={30} color={'gray'} style={{marginLeft: 5}}/></button>}
+            <div>
+                <Link to='/'>
+                    <button className='logo-button'>
+                        <img src={Logo} alt='Logo' />
+                    </button>
+                </Link>
+            </div>
+            <div className='login'>
+            <Link to='/login'>
+                {types.includes('LOGIN') && (
+                        <button className='button-style' > Login <LogIn size={30} color={'gray'} style={{ marginLeft: 5 }} /> </button> )}
+                    </Link>
+            </div>
+            <div className='perfil'>
+                {types.includes('PERFIL') && (
+                    <Perfil />
+                )}
+                </div>
         </div>
     );
 }

@@ -1,6 +1,67 @@
-.linha-progresso{
-    margin-left: 220px;
-    margin-top: 80px;
-    font-size: 40px;
-    color: #FFF;
- }
+.container-progresso {
+    width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header-progresso {
+    margin-top: 20px;
+}
+
+.header-progresso h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.linha-header {
+    width: 300px;
+    height: 0.1px;
+    background-color: #CCCCCC;
+    margin: 0 auto;
+}
+
+.progresso-container {
+    display: flex;
+    margin-left: 140px;
+    width: 80%;
+    height: 500px;
+    position: relative;
+    margin-top: 30px;
+    background-color: #1F2732;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.peso-inicial,
+.peso-alvo {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.342);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    width: 120px;
+}
+
+.peso-inicial {
+    right: 20px;
+}
+
+.peso-alvo {
+    top: 120px;
+    right: 20px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.peso {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+}
+

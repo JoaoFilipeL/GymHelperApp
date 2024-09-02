@@ -1,4 +1,4 @@
-.card {
+.card-menu {
     background-color: #1F2732;
     color: white;
     padding: 20px;
@@ -28,6 +28,7 @@
     cursor: pointer;
     padding: 10px 20px;
     border-radius: 8px;
+    text-decoration: none;
   }
 
   .button:hover{

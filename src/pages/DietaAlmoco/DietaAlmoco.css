@@ -1,0 +1,37 @@
+.container-dieta {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.linha-dieta {
+    display: flex;
+    margin: auto;
+    margin-bottom: 40px;
+    height: 0.1px;
+    background-color: #ffffff;
+   
+}
+
+.titulo-dieta {
+    flex: 2;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.button-nova-dieta {
+   
+    background-color: #D4A75D;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.button-nova-dieta:hover {
+    background-color: #B89045;
+}

@@ -10,14 +10,14 @@ export default function Header(props) {
     return (
         <div className="header">
             <div>
-                <Link to='/'>
+                <Link to='/menu'>
                     <button className='logo-button'>
                         <img src={Logo} alt='Logo' />
                     </button>
                 </Link>
             </div>
             <div className='login'>
-            <Link to='/login'>
+            <Link to='/auth/login'>
                 {types.includes('LOGIN') && (
                         <button className='button-style' > Login <LogIn size={30} color={'gray'} style={{ marginLeft: 5 }} /> </button> )}
                     </Link>

@@ -1,4 +1,4 @@
-import { Formulario } from "../../componentes/Formulario";
+import  Formulario  from "../../componentes/Formulario";
 import Header from "../../componentes/Header";
 import './Login.css';
 

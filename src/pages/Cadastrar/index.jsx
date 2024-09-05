@@ -1,4 +1,4 @@
-import { FormularioCadastro } from '../../componentes/FormularioCadastro';
+import FormularioCadastro from '../../componentes/FormularioCadastro';
 import Header from '../../componentes/Header';
 import './Cadastrar.css';
 

@@ -16,12 +16,12 @@ export default function Perfil() {
             </button>
 
             {modalOpen && (
-                <div className="backdrop">
+                <div className="backdrop-perfil">
                     <div className="dentro-perfil">
                         <h2 className='titulo-perfil'>Seu Perfil</h2>
                         <p>Nome: </p>
                         <p>Email: </p>
-                        <button className="close-button" onClick={toggleModal}>Fechar</button>
+                        <button className="close-button-perfil" onClick={toggleModal}>Fechar</button>
                     </div>
                 </div>
             )}

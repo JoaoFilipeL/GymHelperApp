@@ -1,4 +1,4 @@
-.backdrop {
+.backdrop-perfil {
     position: fixed;
     top: 0;
     left: 0;
@@ -24,7 +24,7 @@
     display: flex;
     margin-left: 190px;
 }
-.close-button {
+.close-button-perfil {
     display: flex;
     border: none;
     padding: 10px 20px;

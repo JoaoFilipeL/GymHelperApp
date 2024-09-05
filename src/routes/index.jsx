@@ -16,13 +16,14 @@ import DietaAlmoco from '../pages/DietaAlmoco'
 import DietaCafedaTarde from '../pages/DietaCafedaTarde'
 import DietaJantar from '../pages/DietaJantar'
 
+
 export const AppRouter = () => {
     return(
         <Router>
             <Routes>
-                <Route path="/" exact element={<Menu />} />
-                <Route path="/login" element={<Login />} />
-                <Route path="/cadastrar" element={<Cadastrar />} />
+                <Route path="/menu" exact element={<Menu />} />
+                <Route path="/auth/login" element={<Login />} />
+                <Route path="/auth/register" element={<Cadastrar />} />
                 <Route path="/treinos" element={<Treinos />} />
                 <Route path="/treinopeito" element={<TreinoPeito />} />
                 <Route path="/treinocostas" element={<TreinoCostas />} />

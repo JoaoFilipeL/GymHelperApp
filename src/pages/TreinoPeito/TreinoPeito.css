@@ -1,37 +1,93 @@
+
 .container-treino {
     display: flex;
-    justify-content: space-between;
-    padding: 50px;
-}
-
-.linha-treinos {
-    display: flex;
-    margin: auto;
-    margin-bottom: 40px;
-    height: 0.1px;
-    background-color: #ffffff;
-   
-}
-
-.titulo-treino {
-    flex: 2;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
     color: #FFFFFF;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 50px; 
+}
+
+
+.container-treino h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.treino-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.treino-item {
+    background-color: #ffffff;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px 0;
+    min-width: 300px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.treino-buttons {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    margin-top: 20px;
+}
+
+.treino-buttons button {
+    padding: 8px 16px;
+    background-color: #404040;  
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.treino-buttons button:hover {
+    background-color: #303030; 
 }
 
 
 .button-novo-treino {
-   
-    background-color: #D4A75D;
+    padding: 12px 24px;
+    margin-top: 30px;
+    background-color: #D4A75D; 
     color: #FFFFFF;
-    padding: 15px 30px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     font-size: 18px;
     text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .button-novo-treino:hover {
     background-color: #B89045;
+}
+
+
+@media (max-width: 768px) {
+    .treino-item {
+        min-width: 100%;
+    }
 }
